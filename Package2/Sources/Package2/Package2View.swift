@@ -12,7 +12,7 @@ public struct Package2View: View {
     public init() {}
 
     public var body: some View {
-        Image("search", bundle: Bundle.module)
+        Image("search", bundle: Bundle.framework)
             .resizable()
             .aspectRatio(contentMode: .fit)
             .padding()

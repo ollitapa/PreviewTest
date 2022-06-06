@@ -11,7 +11,7 @@ public struct Package1View: View {
     public init() {}
 
     public var body: some View {
-        Image("raining", bundle: Bundle.module)
+        Image("raining", bundle: Bundle.framework)
             .resizable()
             .aspectRatio(contentMode: .fit)
             .padding()

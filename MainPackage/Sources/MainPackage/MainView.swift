@@ -11,7 +11,7 @@ import Package2
 
 struct MainView: View {
 
-    /// This view will not render on Xcode preview.
+    /// This view will now render on Preview using the `Bundle.framework` workaround
     var body: some View {
         VStack {
             Package1View()
